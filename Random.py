@@ -8,7 +8,11 @@ else:
 
 
 #2
-
+""" 
 friends = ["Soumorshi", "Mehedi", "Shagnik", "Riddhi"]
 random_friends = random.choice(friends)
 print(random_friends)
+ """
+
+#3
+
