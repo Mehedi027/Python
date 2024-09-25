@@ -11,14 +11,16 @@ def highest_bidder():
     print(f"The highest bidder is {winner} with a bid of ${max}.")
 
 
-name = input("What is your name?: ")
-bid = int(input("What is your bid?: $"))
+
 while True:
+    name = input("What is your name?: ")
+    bid = int(input("What is your bid?: $"))
+    bidder[name] = bid
     user_input = input("Are there any other bidders? (yes/no): ").lower()
     if user_input == "yes":
-        name = input("What is your name?: ")
-        bid = int(input("What is your bid?: $"))
-        bidder[name] = bid
+        print("\n" * 100)
+        continue
+
     else:
         highest_bidder()
         break

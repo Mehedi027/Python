@@ -6,6 +6,10 @@
 # age = int(input ("What is your current age"))
 # life_in_weeks(age)
 
+#how to use max function
+#fruits = {"apple": 2, "Peer": 4, "Orange":9}
+#max(fruits, key=fruits.get)
+
 student_score = {
     'harry' : 88,
     'Ron' : 78,
